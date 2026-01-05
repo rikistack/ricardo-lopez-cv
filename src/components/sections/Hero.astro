@@ -9,7 +9,7 @@ import { basics } from "@cv";
 const { email, image, profiles, location } = basics;
 const { city, region } = location;
 
-const phone = import.meta.env.PUBLIC_PHONE;
+const phone = import.meta.env.PUBLIC_PHONE || "";
 ---
 
 <Section>
