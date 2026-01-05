@@ -17,7 +17,7 @@ export const GET: APIRoute = async ({ request }) => {
     const url = new URL(request.url);
     url.pathname = "/";
 
-    await page.goto(url.toString(), { waitUntil: "networkidle0" });
+    await page.goto(url.toString(), { waitUntil: "domcontentloaded" });
 
     const pdf = await page.pdf({
         format: "A4",
