@@ -5,10 +5,17 @@ import LinkedIn from "@/icons/LinkedIn.astro";
 import Phone from "@/icons/Phone.astro";
 import Location from "@/icons/Location.astro";
 import { basics } from "@cv";
-import { phone } from "@phone";
 
 const { email, image, profiles, location } = basics;
 const { city, region } = location;
+
+let phone;
+try {
+  const mod = await import("@phone");
+  phone = mod.phone;
+} catch {
+  phone = "";
+}
 ---
 
 <Section>
@@ -31,10 +38,14 @@ const { city, region } = location;
         <span>{profiles[0]["url"]}</span>
       </a>
 
-      <a href={`tel:${phone}`}>
-        <Phone />
-        <span>{phone}</span>
-      </a>
+      {
+        phone && (
+          <a href={`tel:${phone}`}>
+            <Phone />
+            <span>{phone}</span>
+          </a>
+        )
+      }
 
       <div>
         <Location />
