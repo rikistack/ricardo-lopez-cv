@@ -9,13 +9,7 @@ import { basics } from "@cv";
 const { email, image, profiles, location } = basics;
 const { city, region } = location;
 
-let phone;
-try {
-  const mod = await import("@phone");
-  phone = mod.phone;
-} catch {
-  phone = "";
-}
+const phone = import.meta.env.PUBLIC_PHONE;
 ---
 
 <Section>
