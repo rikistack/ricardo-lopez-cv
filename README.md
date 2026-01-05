@@ -27,7 +27,7 @@ El CV incluye secciones de contacto, sobre mí, educación, proyectos, cursos y 
 ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Puppeteer](https://img.shields.io/badge/Puppeteer-000000?style=for-the-badge&logo=puppeteer&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Vercel](https://img.shields.io/badge/deploy-vercel-000?style=for-the-badge&logo=vercel)
+![Vercel](https://img.shields.io/badge/vercel-000?style=for-the-badge&logo=vercel)
 ![SSR](https://img.shields.io/badge/Server_Rendering-6f42c1?style=for-the-badge)
 
 
