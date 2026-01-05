@@ -1,6 +1,6 @@
 # Ricardo López – CV Web
 
-[![Download CV](https://img.shields.io/badge/Download-CV-blue?style=for-the-badge&logo=adobeacrobat&logoColor=white)](http://localhost:4321/api/ricardo-lopez-cv.pdf)
+[![Download CV](https://img.shields.io/badge/Download-CV-blue?style=for-the-badge&logo=adobeacrobat&logoColor=white)](https://ricardo-lopez-cv.vercel.app/api/ricardo-lopez-cv.pdf)
 
 
 ![Mockup Preview](./public/mockup01.png)
