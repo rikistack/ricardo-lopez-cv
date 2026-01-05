@@ -24,7 +24,7 @@ export const GET: APIRoute = async ({ request }) => {
     return new Response(pdfBuffer, {
         headers: {
             'Content-Type': 'application/pdf',
-            'Content-Disposition': 'attachment; filename="ricardo-lopez-curriculum.pdf"'
+            'Content-Disposition': 'attachment; filename="ricardo-lopez-cv.pdf"'
         }
     });
 }

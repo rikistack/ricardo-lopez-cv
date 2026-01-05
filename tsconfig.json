@@ -13,6 +13,9 @@
       "@cv": [
         "./cv.json"
       ],
+      "@phone": [
+        "./phone.json"
+      ],
       "@/*": [
         "src/*"
       ]

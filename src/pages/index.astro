@@ -11,7 +11,7 @@ import Skills from "@/components/sections/Skills.astro";
 import SaveCurriculum from "@/components/utils/SaveCurriculum.astro";
 ---
 
-<Layout title="ricardo-lopez-curriculum">
+<Layout title="ricardo-lopez-cv">
   <main id="main" class="grid-layout">
     <div class="left">
       <Hero />
@@ -37,7 +37,7 @@ import SaveCurriculum from "@/components/utils/SaveCurriculum.astro";
 <style>
   @reference "tailwindcss";
   .grid-layout {
-    @apply grid grid-cols-1 sm:grid-cols-3 gap-1 w-full max-w-[794px] h-full max-h-[1123px] mx-auto px-8 pb-24 md:py-4  print:w-[794px] print:h-[1123px] print:mx-auto;
+    @apply grid grid-cols-1 sm:grid-cols-3 gap-1 w-full max-w-[794px] h-auto mx-auto px-8 pb-24 md:py-4  print:w-[794px] print:h-[1123px] print:mx-auto;
   }
 
   .left {
