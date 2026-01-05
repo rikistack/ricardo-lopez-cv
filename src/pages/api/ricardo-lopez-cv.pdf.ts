@@ -2,6 +2,10 @@ import type { APIRoute } from "astro";
 import puppeteer from "puppeteer";
 
 export const GET: APIRoute = async ({ request }) => {
+
+    const ua = request.headers.get('user-agent') || "";
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(ua);
+
     const browser = await puppeteer.launch({
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
@@ -21,10 +25,12 @@ export const GET: APIRoute = async ({ request }) => {
 
     const pdfBuffer = Buffer.from(pdf);
 
+    const disposition = isMobile ? 'attachment' : 'inline';
+
     return new Response(pdfBuffer, {
         headers: {
             'Content-Type': 'application/pdf',
-            'Content-Disposition': 'attachment; filename="ricardo-lopez-cv.pdf"'
+            'Content-Disposition': `${disposition}; filename="ricardo-lopez-cv.pdf"`
         }
     });
 }
