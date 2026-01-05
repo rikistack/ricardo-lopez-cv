@@ -1,0 +1,273 @@
+{
+  "basics": {
+    "name": "Ricardo Alvaro Lopez",
+    "dni": "74730829",
+    "label": "Estudiante de Ingenieria de sistemas",
+    "image": "/perfil-portafolio.dev.webp",
+    "email": "https://ricardoingsistemas@gmail.com",
+    "phone": "(+51) 968 319 237",
+    "url": "https://johndoe.com",
+    "summary": "Soy estudiante de Ingeniería de Sistemas en busca de una oportunidad para crecer profesionalmente y contribuir con mis habilidades. Me caracterizo por ser una persona responsable, proactiva y con muchas ganas de aprender nuevas herramientas que impulsen mi desarrollo personal y profesional.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Lima",
+      "countryCode": "US",
+      "region": "Perú"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Ricardo Lopez",
+        "url": "https://www.linkedin.com/in/ricardolopezsistemas"
+      },
+      {
+        "network": "X",
+        "username": "Ricardo Lopez",
+        "url": "https://x.com/ricardo91392394"
+      },
+      {
+        "network": "GitHub",
+        "username": "Ricardo Lopez",
+        "url": "https://github.com/ricardoLopezProgramming"
+      },
+      {
+        "network": "Gmail",
+        "username": "Ricardo Lopez",
+        "url": "ricardoingsistemas@gmail.com"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Conversor de monedas",
+      "institution": "Alura Latam",
+      "position": "Estudiante de Alura latam",
+      "url": "https://www.linkedin.com/posts/ricardo-alvaro-lopez-8b0753252_funcionamiento-del-proyecto-de-conversor-activity-7047399708612276225-rGgc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nIkQBykHZjUZCW624BqnwxwxQ77pOvSM",
+      "startDate": "2023-03-01",
+      "endDate": "2023-03-01",
+      "summary": "Challenge Alura Latam aplicativo para conversion de monedas, haciendo uso de api",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Encriptador de mensajes",
+      "institution": "Alura Latam",
+      "position": "Estudiante de Alura latam",
+      "url": "https://www.linkedin.com/posts/ricardo-alvaro-lopez-8b0753252_oracle-alura-latam-activity-7018509964063199234-EGru?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nIkQBykHZjUZCW624BqnwxwxQ77pOvSM",
+      "startDate": "2023-03-01",
+      "endDate": "2023-03-01",
+      "summary": " Challenge Alura Latam, Página web para encriptar mensaje.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
+  "supplementaleducation": [
+    {
+      "institution": "Centro de idiomas UCV",
+      "url": "https://institution.com/",
+      "area": "IDIOMA",
+      "studyType": "Ingles",
+      "startDate": "2022-01-01",
+      "endDate": "2025-01-01",
+      "score": "Basico",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "Centro de computación UCV",
+      "url": "https://institution.com/",
+      "area": "PROGRAMA",
+      "studyType": "Computacion II",
+      "startDate": "2022-01-01",
+      "endDate": "2025-01-01",
+      "score": "Basico",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Cesar vallejo",
+      "url": "https://institution.com/",
+      "area": "Ingenieria de sistemas",
+      "studyType": "Bachiller",
+      "startDate": "2019-07-01",
+      "endDate": null,
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "Alura Latam",
+      "url": "https://institution.com/",
+      "area": "Programador junior backend",
+      "studyType": "Bachiller",
+      "startDate": "2022-01-01",
+      "endDate": "2023-01-01",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Docker Essential",
+      "date": "2025-11-07",
+      "issuer": "Cognitive class",
+      "url": "https://www.credly.com/badges/22052cd8-0ff8-4233-b06b-d95c3761b72b/public_url",
+      "startDate": "2025-01-01",
+      "endDate": "2025-01-01"
+    },
+    {
+      "name": "CCNA: Switching, Routing, and Wireless Essentials",
+      "date": "2025-11-07",
+      "issuer": "Cisco Networking Academy",
+      "url": "https://www.credly.com/badges/e11dc44a-402d-4807-88f8-d653130359a5/public_url",
+      "startDate": "2025-01-01",
+      "endDate": "2025-01-01"
+    },
+    {
+      "name": "Asistente de Help Desk",
+      "date": "2025-11-07",
+      "issuer": "Universidad Cesar Vallejo",
+      "url": "https://drive.google.com/file/d/1BHB8tPTLlpzIP8cKBqAkcmG7oaDsnxcJ/view?usp=sharing",
+      "startDate": "2025-01-01",
+      "endDate": "2025-01-01"
+    },
+    {
+      "name": "Programador junior backend",
+      "date": "2023-11-07",
+      "issuer": "Alura Latam",
+      "url": "https://app.aluracursos.com/program/certificate/8cc45f4e-c9c0-415a-b659-0f1bc7d3f338",
+      "startDate": "2023-01-01",
+      "endDate": "2023-01-01"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Lenguajes",
+      "keywords": [
+        "html",
+        "css",
+        "javascript",
+        "php",
+        "java",
+        "mysql",
+        "postgresql"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "keywords": [
+        "express.js",
+        "node.js",
+        "laravel",
+        "react.js",
+        "astro.js",
+        "flutter"
+      ]
+    },
+    {
+      "name": "Herramientas",
+      "keywords": [
+        "git",
+        "docker",
+        "figma",
+        "word",
+        "excel"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Sistema inteligente de monitoreo ambiental para la detección de estrés hídrico en plantas agrícolas en San Juan de Lurigancho",
+      "institution": "Universidad Cesar vallejo",
+      "position": "Estudiante de ingenieria de sistemas",
+      "url": "https://github.com/rikistack/plant_monitoring_system",
+      "startDate": "2025-03-01",
+      "endDate": "2023-03-01",
+      "summary": "Ganador del primer lugar en la Expotec del curso de Sistemas Inteligentes, desarrollando una solución basada en LLM con recomendaciones inteligentes por chat.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Cosecha Inteligente: Juego de Decisiones Nutricionales",
+      "institution": "Universidad Cesar vallejo",
+      "position": "Estudiante de Alura latam",
+      "url": "https://github.com/rikistack/Cosecha-Inteligente-Juego-de-Decisiones-Nutricionales",
+      "startDate": "2025-03-01",
+      "endDate": "2023-03-01",
+      "summary": "Proyecto desarrollado en Unity, enfocado en la toma de decisiones nutricionales mediante mecánicas de juego y simulación interactiva.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "accomplishments": [
+    {
+      "label": "Proyecto ganador del primer lugar en la EXPOTEC 2025-II curso de Sistemas Inteligentes.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7413608996064059392/"
+    },
+    {
+      "label": "Proyecto ganador del primer lugar en la EXPOTEC 2025-I curso de Animacion y modelado.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7413612540879917056/"
+    },
+    {
+      "label": "Diploma de reconocimiento como delegado"
+    }
+  ]
+}

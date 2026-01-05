@@ -1,0 +1,81 @@
+---
+import Section from "@/components/Section.astro";
+import cv from "@cv";
+const { accomplishments } = cv;
+---
+
+<Section>
+  <header>
+    <h2 class="section-title">LOGROS</h2>
+  </header>
+  {
+    accomplishments.map(({ label, url }) => (
+      <article>
+        <ul>
+          <li class="accomplishment-entry underline">
+            <a href={url} target="_blank">{label}</a>
+          </li>
+        </ul>
+      </article>
+    ))
+  }
+  <footer></footer>
+</Section>
+
+<style>
+  @reference "tailwindcss";
+
+  .section-title {
+    @apply py-0.5 mb-2 text-white bg-[#223558] text-center font-semibold;
+  }
+
+  .accomplishment-entry {
+    @apply mb-2;
+  }
+
+  .accomplishment-entry {
+    font-weight: 400;
+    color: #555;
+  }
+
+  .accomplishment-entry a {
+    color: #111;
+  }
+
+  .accomplishment-entry a:hover {
+    text-decoration: underline;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85rem;
+    min-width: 102px;
+    cursor: default;
+  }
+
+  @media (width <= 700px) {
+    time {
+      text-align: right;
+    }
+  }
+
+  @media print {
+    * {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .section-title {
+      background-color: #223558 !important;
+      color: white !important;
+    }
+
+    h2,
+    h3 {
+      color: #222 !important;
+    }
+    h4 {
+      color: #555;
+    }
+  }
+</style>

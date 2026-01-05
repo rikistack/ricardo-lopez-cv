@@ -1,0 +1,20 @@
+---
+const { title } = Astro.props;
+---
+
+<section class="section-block">
+  {title && <h2 class="section-title">{title}</h2>}
+  <slot />
+</section>
+
+<style>
+  @reference "tailwindcss";
+
+  .section-block {
+    @apply px-2 py-1 rounded-md;
+  }
+
+  .section-title {
+    @apply text-lg font-bold mb-2 border-b pb-1;
+  }
+</style>

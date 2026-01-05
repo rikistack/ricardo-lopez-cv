@@ -1,0 +1,91 @@
+---
+import Section from "@/components/Section.astro";
+import { references } from "@cv";
+---
+
+<Section>
+    <article>
+        <header>
+            <h2 class="section-title">REFERENCIAS</h2>
+        </header>
+        {
+            references.map(({ name, reference }) => {
+                return (
+                    <section class="reference-entry">
+                        <header>
+                            <div>
+                                <h3>Sr:</h3>
+                                <h4>{name}</h4>
+                                <h3>Cargo:</h3>
+                                <h4>{reference}</h4>
+                            </div>
+                        </header>
+                    </section>
+                );
+            })
+        }
+    </article>
+</Section>
+
+<style>
+    @reference "tailwindcss";
+
+    .section-title {
+        @apply py-0.5 mb-2 text-white bg-[#223558] text-center font-semibold;
+    }
+
+    .reference-entry header {
+        @apply flex justify-between items-start gap-2 mb-1;
+    }
+
+    .reference-entry h3 {
+        font-weight: 500;
+        color: #111;
+    }
+
+    .reference-entry h4 {
+        font-weight: 400;
+        color: #222;
+    }
+
+    .reference-entry a {
+        color: #111;
+    }
+
+    .reference-entry a:hover {
+        text-decoration: underline;
+    }
+
+    time {
+        color: #555;
+        font-size: 0.85rem;
+        min-width: 102px;
+        cursor: default;
+    }
+
+    @media (width <= 700px) {
+        time {
+            text-align: right;
+        }
+    }
+
+    @media print {
+        * {
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        .section-title {
+            background-color: #223558 !important;
+            color: white !important;
+        }
+
+        h2,
+        h3 {
+            color: $222;
+        }
+        h4 {
+            color: $555;
+        }
+    }
+</style>

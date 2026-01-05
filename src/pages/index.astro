@@ -1,0 +1,50 @@
+---
+import Hero from "@/components/sections/Hero.astro";
+import Layout from "../layouts/Layout.astro";
+import About from "@/components/sections/About.astro";
+import Education from "@/components/sections/Education.astro";
+import SupplementalCourse from "@/components/sections/SupplementalCourse.astro";
+import Course from "@/components/sections/Course.astro";
+import Accomplishment from "@/components/sections/Accomplishment.astro";
+import Projects from "@/components/sections/Projects.astro";
+import Skills from "@/components/sections/Skills.astro";
+import SaveCurriculum from "@/components/utils/SaveCurriculum.astro";
+---
+
+<Layout title="ricardo-lopez-curriculum">
+  <main id="main" class="grid-layout">
+    <div class="left">
+      <Hero />
+      <span class="block sm:hidden">
+        <About />
+      </span>
+      <SupplementalCourse />
+      <Skills />
+    </div>
+    <div class="right">
+      <span class="hidden sm:block">
+        <About />
+      </span>
+      <Education />
+      <Projects />
+      <Course />
+      <Accomplishment />
+    </div>
+  </main>
+  <div class="fixed bottom-4 right-4"><SaveCurriculum /></div>
+</Layout>
+
+<style>
+  @reference "tailwindcss";
+  .grid-layout {
+    @apply grid grid-cols-1 sm:grid-cols-3 gap-1 w-full max-w-[794px] h-full max-h-[1123px] mx-auto px-8 pb-24 md:py-4  print:w-[794px] print:h-[1123px] print:mx-auto;
+  }
+
+  .left {
+    @apply sm:col-span-1 flex flex-col gap-x-2 gap-y-0 bg-[#f4f4f8];
+  }
+
+  .right {
+    @apply sm:col-span-2 flex flex-col gap-x-2 gap-y-0;
+  }
+</style>

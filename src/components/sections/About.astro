@@ -1,0 +1,74 @@
+---
+import Section from "@/components/Section.astro";
+import { basics } from "@cv";
+const { name, label, summary } = basics;
+---
+
+<Section>
+  <article class="about-container">
+    <header class="about-header">
+      <!-- <h2 class="about-title">{name.toUpperCase()}</h2> -->
+      <h2 class="about-title mt-1">Sobre mi</h2>
+      <!-- <h4 class="about-subtitle">{label.toUpperCase()}</h4> -->
+    </header>
+
+    <div class="about-content">
+      <!-- <h4 class="about-goal">OBJETIVO:</h4> -->
+      <p class="about-summary">
+        Soy Ricardo Alvaro Arcangelo Lopez Llontop, estudiante de Ingeniería de
+        Sistemas en la Universidad César Vallejo. Mi enfoque profesional está
+        centrado en el desarrollo de software y en la creación de soluciones
+        tecnológicas que sean tanto eficientes como funcionales para resolver
+        problemas reales.
+      </p>
+    </div>
+  </article>
+</Section>
+
+<style>
+  @reference "tailwindcss";
+
+  .about-container {
+    @apply overflow-hidden;
+  }
+
+  .about-header {
+    @apply text-[#223558] text-left pt-0 pb-2;
+  }
+
+  .about-title {
+    @apply text-xl font-semibold leading-tight ml-5 text-[#223558];
+  }
+
+  .about-subtitle {
+    @apply text-sm font-light tracking-wide;
+  }
+
+  .about-content {
+    @apply px-5 pb-4;
+  }
+
+  .about-goal {
+    @apply text-base font-semibold text-[#223558] mb-2;
+  }
+
+  .about-summary {
+    @apply text-justify text-sm leading-relaxed text-gray-800;
+  }
+
+  /* @media print {
+    * {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .about-header {
+      background-color: #223558 !important;
+      color: white !important;
+    }
+
+    h2, h3, h4 {
+      color: white !important;
+    }
+  } */
+</style>

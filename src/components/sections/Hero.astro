@@ -1,0 +1,98 @@
+---
+import Section from "@/components/Section.astro";
+import Email from "@/icons/Email.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import Phone from "@/icons/Phone.astro";
+import Location from "@/icons/Location.astro";
+import { basics } from "@cv";
+
+const { email, image, phone, dni, profiles, location } = basics;
+const { city, region } = location;
+---
+
+<Section>
+  <article>
+    <header>
+      <figure>
+        <img src={image} alt="Foto de perfil" />
+      </figure>
+      <h2 class="section-title">CONTACTO</h2>
+    </header>
+
+    <footer class="container-footer text-blue-950">
+      <a href={`mailto:${profiles[3]["url"]}`}>
+        <Email />
+        <span>{profiles[3]["url"]}</span>
+      </a>
+
+      <a href={profiles[0]["url"]} target="_blank" rel="noopener noreferrer">
+        <LinkedIn />
+        <span>{profiles[0]["url"]}</span>
+      </a>
+
+      <a href={`tel:${phone}`}>
+        <Phone />
+        <span>{phone}</span>
+      </a>
+
+      <div>
+        <Location />
+        <span>{city}, {region}</span>
+      </div>
+    </footer>
+  </article>
+</Section>
+
+<style>
+  @reference "tailwindcss";
+
+  .section-title {
+    @apply my-2 py-0.5 text-white bg-[#223558] text-center font-semibold;
+  }
+
+  .container-footer {
+    @apply flex flex-col w-full;
+  }
+
+  .container-footer a {
+    @apply flex gap-2 items-center w-full;
+  }
+
+  .container-footer a span {
+    @apply text-[1rem] sm:text-[.78rem] md:text-[.85rem] break-words break-all whitespace-normal w-full;
+  }
+
+  .container-footer div {
+    @apply flex gap-2 items-center w-full;
+  }
+
+  .container-footer div span {
+    @apply text-[1rem] sm:text-[.78rem] md:text-[.85rem] break-words break-all whitespace-normal w-full;
+  }
+
+  header {
+    @apply mt-3;
+  }
+
+  figure img {
+    @apply w-3/4 h-[200px] object-cover mx-auto border-1 border-gray-200 mb-4;
+  }
+
+  @media print {
+    * {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact; /* para navegadores modernos */
+    }
+
+    .section-title {
+      background-color: #223558 !important;
+      color: white !important;
+    }
+
+    h2,
+    h3,
+    h4 {
+      color: white !important;
+    }
+  }
+</style>
