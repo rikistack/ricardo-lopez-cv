@@ -11,8 +11,8 @@ import {projects} from "@cv";
         <footer>
             {
                 projects.map(({ name, institution, position, url, startDate, endDate, summary }) => {
-                  const startYear = new Date(startDate).getFullYear();
-                  const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actualidad";
+                  const startYear = startDate.split('-')[0];
+                  const endYear = endDate != null ? endDate.split('-')[0] : "Actualidad";
           
                   return (
                     <section class="supplement-entry">

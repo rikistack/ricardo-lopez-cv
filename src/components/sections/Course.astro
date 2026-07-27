@@ -10,9 +10,9 @@ import {certificates} from "@cv";
         </header>
     
         {
-          certificates.slice(1).map(({ name, date, issuer, url, startDate, endDate}) => {
-            const startYear = new Date(startDate).getFullYear();
-            const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actualidad";
+          certificates.sort((a, b) => new Date(b.endDate).getTime() - new Date(a.endDate).getTime()).map(({ name, date, issuer, url, startDate, endDate}) => {
+            const startYear = startDate.split('-')[0];
+            const endYear = endDate != null ? endDate.split('-')[0] : "Actualidad";
     
             return (
               <section class="supplement-entry">

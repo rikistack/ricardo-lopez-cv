@@ -12,9 +12,8 @@ import { education } from "@cv";
       {
         education.map(
           ({ institution, url, studyType, area, startDate, endDate }) => {
-            const startYear = new Date(startDate).getFullYear();
-            const endYear =
-              endDate != null ? new Date(endDate).getFullYear() : "Actualidad";
+            const startYear = startDate.split('-')[0];
+            const endYear = endDate != null ? endDate.split('-')[0] : "Actualidad";
 
             return (
               <section class="supplement-entry">

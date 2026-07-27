@@ -2,7 +2,7 @@
   "basics": {
     "name": "Ricardo Alvaro Lopez",
     "dni": "74730829",
-    "label": "Estudiante de Ingenieria de sistemas",
+    "label": "Estudiante de Ingeniería de Sistemas / Responsable de Desarrollo Web",
     "image": "/perfil.webp",
     "email": "https://ricardoingsistemas@gmail.com",
     "url": "https://johndoe.com",
@@ -39,28 +39,14 @@
   },
   "work": [
     {
-      "name": "Conversor de monedas",
-      "institution": "Alura Latam",
-      "position": "Estudiante de Alura latam",
-      "url": "https://www.linkedin.com/posts/ricardo-alvaro-lopez-8b0753252_funcionamiento-del-proyecto-de-conversor-activity-7047399708612276225-rGgc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nIkQBykHZjUZCW624BqnwxwxQ77pOvSM",
-      "startDate": "2023-03-01",
-      "endDate": "2023-03-01",
-      "summary": "Challenge Alura Latam aplicativo para conversion de monedas, haciendo uso de api",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Encriptador de mensajes",
-      "institution": "Alura Latam",
-      "position": "Estudiante de Alura latam",
-      "url": "https://www.linkedin.com/posts/ricardo-alvaro-lopez-8b0753252_oracle-alura-latam-activity-7018509964063199234-EGru?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nIkQBykHZjUZCW624BqnwxwxQ77pOvSM",
-      "startDate": "2023-03-01",
-      "endDate": "2023-03-01",
-      "summary": " Challenge Alura Latam, Página web para encriptar mensaje.",
-      "highlights": [
-        "Started the company"
-      ]
+      "name": "Responsable de Desarrollo Web",
+      "institution": "Agencia Online Consigue Ventas",
+      "position": "Responsable de Desarrollo Web",
+      "url": "",
+      "startDate": "2026-04-01",
+      "endDate": "2026-07-01",
+      "summary": "Responsable del desarrollo y mantenimiento de plataformas web, integración de APIs, optimización de rendimiento y experiencia de usuario. Liderazgo de proyectos tecnológicos y coordinación con equipos multidisciplinarios para la entrega de soluciones digitales eficientes.",
+      "highlights": []
     }
   ],
   "volunteer": [
@@ -93,9 +79,9 @@
       "institution": "Centro de computación UCV",
       "url": "https://institution.com/",
       "area": "PROGRAMA",
-      "studyType": "Computacion II",
-      "startDate": "2022-01-01",
-      "endDate": "2025-01-01",
+      "studyType": "Computacion III",
+      "startDate": "2026-01-01",
+      "endDate": "2026-01-01",
       "score": "Basico",
       "courses": [
         "DB1101 - Basic SQL"
@@ -138,36 +124,28 @@
   ],
   "certificates": [
     {
-      "name": "Docker Essential",
-      "date": "2025-11-07",
-      "issuer": "Cognitive class",
-      "url": "https://www.credly.com/badges/22052cd8-0ff8-4233-b06b-d95c3761b72b/public_url",
-      "startDate": "2025-01-01",
-      "endDate": "2025-01-01"
+      "name": "Data Science Math Skills",
+      "date": "2026-04-06",
+      "issuer": "Duke University / Santander Open Academy",
+      "url": "https://www.linkedin.com/posts/ricardolopezsistemas_completion-certificate-for-data-science-math-activity-7446973082793111553-jEzR",
+      "startDate": "2026-04-01",
+      "endDate": "2026-04-01"
     },
     {
       "name": "CCNA: Switching, Routing, and Wireless Essentials",
       "date": "2025-11-07",
       "issuer": "Cisco Networking Academy",
       "url": "https://www.credly.com/badges/e11dc44a-402d-4807-88f8-d653130359a5/public_url",
-      "startDate": "2025-01-01",
-      "endDate": "2025-01-01"
+      "startDate": "2025-11-01",
+      "endDate": "2025-11-01"
     },
     {
       "name": "Asistente de Help Desk",
       "date": "2025-11-07",
       "issuer": "Universidad Cesar Vallejo",
       "url": "https://drive.google.com/file/d/1BHB8tPTLlpzIP8cKBqAkcmG7oaDsnxcJ/view?usp=sharing",
-      "startDate": "2025-01-01",
-      "endDate": "2025-01-01"
-    },
-    {
-      "name": "Programador junior backend",
-      "date": "2023-11-07",
-      "issuer": "Alura Latam",
-      "url": "https://app.aluracursos.com/program/certificate/8cc45f4e-c9c0-415a-b659-0f1bc7d3f338",
-      "startDate": "2023-01-01",
-      "endDate": "2023-01-01"
+      "startDate": "2025-11-01",
+      "endDate": "2025-11-01"
     }
   ],
   "publications": [
@@ -183,22 +161,20 @@
     {
       "name": "Lenguajes",
       "keywords": [
-        "html",
-        "css",
         "javascript",
+        "typescript",
         "php",
         "java",
-        "mysql",
-        "postgresql"
+        "python",
+        "mysql"
       ]
     },
     {
       "name": "Frameworks",
       "keywords": [
-        "express.js",
+        "react.js",
         "node.js",
         "laravel",
-        "react.js",
         "astro.js",
         "flutter"
       ]
@@ -208,9 +184,11 @@
       "keywords": [
         "git",
         "docker",
+        "firebase",
         "figma",
-        "word",
-        "excel"
+        "wordpress",
+        "opencode",
+        "unity"
       ]
     }
   ],
@@ -232,37 +210,37 @@
   "references": [],
   "projects": [
     {
+      "name": "Visora AI — Escáner Ocular Inteligente",
+      "institution": "Universidad Cesar Vallejo",
+      "position": "Responsable de Desarrollo Web",
+      "url": "https://www.instagram.com/p/DayljqegYS7/",
+      "startDate": "2026-03-01",
+      "endDate": null,
+      "summary": "Ganador del primer lugar en la Expotec 2026-I – UCV Lima Este. Sistema multi-plataforma para detección de cataratas mediante IA con ESP32-CAM, Flutter, React, FastAPI, YOLO y blockchain.",
+      "highlights": []
+    },
+    {
       "name": "Sistema inteligente de monitoreo ambiental para la detección de estrés hídrico en plantas agrícolas en San Juan de Lurigancho",
-      "institution": "Universidad Cesar vallejo",
+      "institution": "Universidad Cesar Vallejo",
       "position": "Estudiante de ingenieria de sistemas",
       "url": "https://github.com/rikistack/plant_monitoring_system",
       "startDate": "2025-03-01",
-      "endDate": "2023-03-01",
-      "summary": "Ganador del primer lugar en la Expotec del curso de Sistemas Inteligentes, desarrollando una solución basada en LLM con recomendaciones inteligentes por chat.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Cosecha Inteligente: Juego de Decisiones Nutricionales",
-      "institution": "Universidad Cesar vallejo",
-      "position": "Estudiante de Alura latam",
-      "url": "https://github.com/rikistack/Cosecha-Inteligente-Juego-de-Decisiones-Nutricionales",
-      "startDate": "2025-03-01",
-      "endDate": "2023-03-01",
-      "summary": "Proyecto desarrollado en Unity, enfocado en la toma de decisiones nutricionales mediante mecánicas de juego y simulación interactiva.",
-      "highlights": [
-        "Started the company"
-      ]
+      "endDate": null,
+      "summary": "Ganador del primer lugar en la Expotec 2025-II – curso de Sistemas Inteligentes. Solución basada en LLM con recomendaciones inteligentes por chat.",
+      "highlights": []
     }
   ],
   "accomplishments": [
     {
-      "label": "Proyecto ganador del primer lugar en la EXPOTEC 2025-II curso de Sistemas Inteligentes.",
+      "label": "Proyecto ganador del primer lugar en la EXPOTEC 2026-I – UCV Lima Este con Visora AI.",
+      "url": ""
+    },
+    {
+      "label": "Proyecto ganador del primer lugar en la EXPOTEC 2025-II – curso de Sistemas Inteligentes.",
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7413608996064059392/"
     },
     {
-      "label": "Proyecto ganador del primer lugar en la EXPOTEC 2025-I curso de Animacion y modelado.",
+      "label": "Proyecto ganador del primer lugar en la EXPOTEC 2025-I – curso de Animación y Modelado.",
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7413612540879917056/"
     },
     {
